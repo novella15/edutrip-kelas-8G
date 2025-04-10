@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar Navigasi</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            background-color: antiquewhite;
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Outfit', sans-serif;
+      }
+  
+      body {
+        background: #fdfcfa;
+        color: #000000;
+        padding: 2rem;
+        line-height: 1.6;
+      }
+  
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #ffffff;
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        transition: 0.3s ease;
+      }
 
-        header {
-            background-color: aquamarine;
+      header {
+            background-color: rgb(241, 63, 63);
             padding: 10px 0;
             text-align: center;
         }
@@ -30,13 +48,50 @@
         header a:hover {
             color: azure;
         }
+            
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #0d0d0e;
+        text-align: center;
+      }
+  
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+      }
+  
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #9a8c98;
+        color: white;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s ease;
+        line-height: 2;
+      }
+  
+      .btn:hover {
+        background: #c9ada7;
+      }
+  
+      .footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #999;
+        margin-top: 3rem;
+      }
 
-        h1 {
-            text-align: center;
-            margin-top: 50px;
-            font-size: 36px;
-            color: rgb(27, 27, 197);
-        }
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #444;
+    }
     </style>
 </head>
 <body style="background-color: antiquewhite;">
@@ -44,9 +99,30 @@
         <a href="index.html">Home</a>
         <a href="agama.html">Agama</a>
         <a href="ppkn.htm">PPKn</a>
-        <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+        <a href="ips.html">IPS</a>
+        <a href="bi.html">Bahasa Indonesia</a>
+        <a href="english.html">English</a>
+        <a href="mandarin.html">Mandarin</a>
     </header>
 
     <h1>Ini adalah halaman Home</h1>
+        <p style="font-weight: lighter;">
+            Halo semuanya! Saya Kathleen dari 8G/14. Ini adalah website edutrip Taiwan, Keelung saya.
+            Disini terdapat kumpulan tugas yang diberikan setiap pelajaran saat perjalanan edutrip selama seminggu.
+            Semoga bisa dibaca dan disimak baik-baik. Terima kasih atas perhatiannya!
+        </p>
+        <p style="font-weight: lighter;">
+            Edutrip telah tiba! Pada tanggal 8 Maret sampai 15 Maret, saya dan teman-temanku pergi ke Taiwan bersama.
+            Perjalanannya di pesawat lumayan lama, tetapi sangat menyenangkan; makanannya enak dan banyak film yang bisa ditonton.
+            Saat kami mendarat di Taiwan, kami bisa merasakan udara yang segar, cuaca yang berangin dingin disertai malam hari yang gelap.
+            Ini baru permulaannya, namu kami sudah tidak sabar untuk berjalan-jalan keliling Taiwan. Pengalaman baru apa saja yang kami akan peroleh? 
+            Mari kita mengali lebih dalam tentang edutrip saya di Taiwan! 
+        </p>
+        <img src="taiwan 1.jpg" width="600" height="400" ></img>
+        <img src="taiwan 2.jpg" width="600" height="400"></img>  
+
+        <footer>
+          &copy; Edutrip Taiwan, Keelung 2025. Dibuat oleh Kathleen 8G/14.
+        </footer>
 </body>
 </html>
